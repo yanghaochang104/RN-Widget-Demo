@@ -1,0 +1,1157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2CD32458A161AF8E4BA58B4310701AB3 /* AppCenterReactNativeShared */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B1AADDABC0FF92BF51AC88E6BD57DB25 /* Build configuration list for PBXAggregateTarget "AppCenterReactNativeShared" */;
+			buildPhases = (
+			);
+			dependencies = (
+				0051E4214884EF5346A2A55966EC832B /* PBXTargetDependency */,
+			);
+			name = AppCenterReactNativeShared;
+		};
+		A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AppCenter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1B1A154C90793CFF56E3546338A53020 /* Pods-ReactNativeAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3CA23B863933D950352989E54049FFC /* Pods-ReactNativeAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39ED842C6F36E2BD5506BC173D295FCB /* Pods-ReactNativeApp-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BCF07034717A51DE89225EAE298D632 /* Pods-ReactNativeApp-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E8BD239BF336FA9C3004C252BEFAC54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		66CE5D685C2DF4EA923A785196D7EF53 /* Pods-ReactNativeAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B24989517701F78DC802116294B7DF38 /* Pods-ReactNativeAppTests-dummy.m */; };
+		677FFE212CF91B1140FFBAA3FCC161B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		89D51CC9D4B0D9ACE4753C8A7D3A07CD /* Pods-ReactNativeApp-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1035811E1DBB2E4060AABF356BDF296 /* Pods-ReactNativeApp-tvOSTests-dummy.m */; };
+		B4B2133F148DF05C1E4ADD33F6CF0640 /* Pods-ReactNativeApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D238819DBEBECAC4F921F0DE0F095A /* Pods-ReactNativeApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BABAF04455439DE19BEBADA20B7DE9BF /* Pods-ReactNativeApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C9B5CE78DB1154CD859082D39FFBC1 /* Pods-ReactNativeApp-dummy.m */; };
+		BFC6E61E641F39B8BB3F89D4B224BB5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		C04343D967BFF89E6AA5A3F78759665C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		C2D801952BDC5B3647234F52BEE8B791 /* Pods-ReactNativeApp-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EDF0E1D9790D6A06B86EB4A15C5B52 /* Pods-ReactNativeApp-tvOS-dummy.m */; };
+		F00E2AD413A34591FA18D9592C1269FB /* Pods-ReactNativeApp-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7985CC3B3D55583941F34C03AC02BAB0 /* Pods-ReactNativeApp-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BAA9E4D4F9B58C58FC61A9FD5A0C36B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD32458A161AF8E4BA58B4310701AB3;
+			remoteInfo = AppCenterReactNativeShared;
+		};
+		204166D9EA4585933F9E939E906CA928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7279438790F19097CEB411DFA1951DB6;
+			remoteInfo = "Pods-ReactNativeApp";
+		};
+		5E7315F8CE405A32A36B96F6B85AF47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		D96B09CB6F7CDF72F3099DD83AD5AB87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		EB6629AB37C716E07AFB00705E34CB35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 081230B9F77672DC359CF6D5EE53636F;
+			remoteInfo = "Pods-ReactNativeApp-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0668EE1705579444CC2CDCBD3C335576 /* Pods-ReactNativeAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReactNativeAppTests.modulemap"; sourceTree = "<group>"; };
+		0A7DE0AF8CCA5CCAC4F6B769370DB227 /* Pods-ReactNativeApp-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeApp-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		101086D48961A1F5D174F74008C809D8 /* AppCenterReactNativeShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterReactNativeShared.framework; path = AppCenterReactNativeShared/AppCenterReactNativeShared.framework; sourceTree = "<group>"; };
+		15C9B5CE78DB1154CD859082D39FFBC1 /* Pods-ReactNativeApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactNativeApp-dummy.m"; sourceTree = "<group>"; };
+		213FA97D0313D6CEF76E99FE1FF5B8AF /* Pods_ReactNativeApp_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReactNativeApp_tvOSTests.framework; path = "Pods-ReactNativeApp-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259A51087349695F5B93EE5070F4CE70 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		2F02B4B83ED4C34CF3C2B546D42EDEC9 /* Pods-ReactNativeApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		309F0BC04F2964C58200F77715937B42 /* Pods_ReactNativeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReactNativeApp.framework; path = "Pods-ReactNativeApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		435372FFE96B9EFDA5E6EFA1B372F74E /* Pods-ReactNativeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		44138B3D2B1CE17EAE94D9C6B2AFAED2 /* Pods-ReactNativeApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		46013A2126631892C74BF0E298DFC904 /* Pods-ReactNativeApp-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactNativeApp-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57447041E60F2B2A34B159A833C2254C /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.xcconfig; sourceTree = "<group>"; };
+		6BCF07034717A51DE89225EAE298D632 /* Pods-ReactNativeApp-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReactNativeApp-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		712670FABB994D8F7B74DDC37E032AFB /* Pods_ReactNativeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReactNativeAppTests.framework; path = "Pods-ReactNativeAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		795A41392200C065D1BD91E052A8955D /* Pods-ReactNativeApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactNativeApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7985CC3B3D55583941F34C03AC02BAB0 /* Pods-ReactNativeApp-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReactNativeApp-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
+		7F065FCD68749095C966BF25DBA43116 /* Pods-ReactNativeApp-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReactNativeApp-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		84ED35A14E4C063105B7BB02C2F468D1 /* Pods-ReactNativeApp-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeApp-tvOS-Info.plist"; sourceTree = "<group>"; };
+		8FB89E37E5783B5E9ECBA6E491257DE9 /* Pods-ReactNativeApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReactNativeApp.modulemap"; sourceTree = "<group>"; };
+		98ECB64714B29523E87887F4F765FEA8 /* Pods-ReactNativeApp-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactNativeApp-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A99B04E16A1C2E780B0E8C131155700 /* Pods-ReactNativeApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeApp-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4BDA455628F24BF53589DA2EA0C9D33 /* Pods_ReactNativeApp_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReactNativeApp_tvOS.framework; path = "Pods-ReactNativeApp-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A659C85726142F076F1DE1EC4740211B /* Pods-ReactNativeAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReactNativeAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB822E0E18B12EAB32599CA7977D1F14 /* Pods-ReactNativeApp-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeApp-tvOSTests-Info.plist"; sourceTree = "<group>"; };
+		AE043815E5BD31F573B517C3CDC76305 /* Pods-ReactNativeApp-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeApp-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		B24989517701F78DC802116294B7DF38 /* Pods-ReactNativeAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactNativeAppTests-dummy.m"; sourceTree = "<group>"; };
+		B31650D0FF3C7BBED68FAE6A6F7BFA48 /* Pods-ReactNativeAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6EFB9AE3212708E4D3615E25DF2161D /* Pods-ReactNativeApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenterReactNativeShared.xcconfig; sourceTree = "<group>"; };
+		C1035811E1DBB2E4060AABF356BDF296 /* Pods-ReactNativeApp-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactNativeApp-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		C7FD18E2A51FC2FE79DB35F0C277E4B0 /* Pods-ReactNativeApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D4A11F217D37E4E1164A37D77635D7FF /* Pods-ReactNativeAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReactNativeAppTests-Info.plist"; sourceTree = "<group>"; };
+		E3CA23B863933D950352989E54049FFC /* Pods-ReactNativeAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReactNativeAppTests-umbrella.h"; sourceTree = "<group>"; };
+		E78A88B39FF229FF96CB57EE0F624FBD /* Pods-ReactNativeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E985DE6F66914B43AC9AEEAFE2B8940D /* Pods-ReactNativeApp-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReactNativeApp-tvOS.modulemap"; sourceTree = "<group>"; };
+		E98ADAC9738FDF5C6806990B983401DE /* Pods-ReactNativeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeApp.release.xcconfig"; sourceTree = "<group>"; };
+		F4CE7345C6137AF49A54827B4AEA2E17 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		F5D238819DBEBECAC4F921F0DE0F095A /* Pods-ReactNativeApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReactNativeApp-umbrella.h"; sourceTree = "<group>"; };
+		F6D46EC3293D24A3DBB97AA146096CD4 /* Pods-ReactNativeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F6EDF0E1D9790D6A06B86EB4A15C5B52 /* Pods-ReactNativeApp-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReactNativeApp-tvOS-dummy.m"; sourceTree = "<group>"; };
+		F98BCA3DC4D06E094EED29FD31184A85 /* Pods-ReactNativeApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReactNativeApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1AB50BC7CACBB6BC34EF8766D8AE899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677FFE212CF91B1140FFBAA3FCC161B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22249A9DD5EAE9E20345832C37A2BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC6E61E641F39B8BB3F89D4B224BB5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CEBE6F0B7C4A89FD8CCEE1069BA373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8BD239BF336FA9C3004C252BEFAC54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65E1C63B7FECE251736A32894D4916E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04343D967BFF89E6AA5A3F78759665C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029302686FEFE02AE936632016CAA780 /* Pods-ReactNativeApp */ = {
+			isa = PBXGroup;
+			children = (
+				8FB89E37E5783B5E9ECBA6E491257DE9 /* Pods-ReactNativeApp.modulemap */,
+				795A41392200C065D1BD91E052A8955D /* Pods-ReactNativeApp-acknowledgements.markdown */,
+				44138B3D2B1CE17EAE94D9C6B2AFAED2 /* Pods-ReactNativeApp-acknowledgements.plist */,
+				15C9B5CE78DB1154CD859082D39FFBC1 /* Pods-ReactNativeApp-dummy.m */,
+				9A99B04E16A1C2E780B0E8C131155700 /* Pods-ReactNativeApp-Info.plist */,
+				F5D238819DBEBECAC4F921F0DE0F095A /* Pods-ReactNativeApp-umbrella.h */,
+				F6D46EC3293D24A3DBB97AA146096CD4 /* Pods-ReactNativeApp.debug.xcconfig */,
+				E98ADAC9738FDF5C6806990B983401DE /* Pods-ReactNativeApp.release.xcconfig */,
+			);
+			name = "Pods-ReactNativeApp";
+			path = "Target Support Files/Pods-ReactNativeApp";
+			sourceTree = "<group>";
+		};
+		1262F4EB7C8FAE52651E692FE150C552 /* Pods-ReactNativeApp-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F065FCD68749095C966BF25DBA43116 /* Pods-ReactNativeApp-tvOSTests.modulemap */,
+				46013A2126631892C74BF0E298DFC904 /* Pods-ReactNativeApp-tvOSTests-acknowledgements.markdown */,
+				0A7DE0AF8CCA5CCAC4F6B769370DB227 /* Pods-ReactNativeApp-tvOSTests-acknowledgements.plist */,
+				C1035811E1DBB2E4060AABF356BDF296 /* Pods-ReactNativeApp-tvOSTests-dummy.m */,
+				AB822E0E18B12EAB32599CA7977D1F14 /* Pods-ReactNativeApp-tvOSTests-Info.plist */,
+				7985CC3B3D55583941F34C03AC02BAB0 /* Pods-ReactNativeApp-tvOSTests-umbrella.h */,
+				B6EFB9AE3212708E4D3615E25DF2161D /* Pods-ReactNativeApp-tvOSTests.debug.xcconfig */,
+				2F02B4B83ED4C34CF3C2B546D42EDEC9 /* Pods-ReactNativeApp-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-ReactNativeApp-tvOSTests";
+			path = "Target Support Files/Pods-ReactNativeApp-tvOSTests";
+			sourceTree = "<group>";
+		};
+		1E40D94BB364328FBE96A84A9A48CC14 /* AppCenterReactNativeShared */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F0E7602AAB87E8282D7EE77A128F2 /* Frameworks */,
+				C2F79BBE68CAC64203149AF75B3502BF /* Support Files */,
+			);
+			name = AppCenterReactNativeShared;
+			path = AppCenterReactNativeShared;
+			sourceTree = "<group>";
+		};
+		23977631E0E947775B0FF421D89FC310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				259A51087349695F5B93EE5070F4CE70 /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2662D0F8032F938A30D048B20741CEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				309F0BC04F2964C58200F77715937B42 /* Pods_ReactNativeApp.framework */,
+				A4BDA455628F24BF53589DA2EA0C9D33 /* Pods_ReactNativeApp_tvOS.framework */,
+				213FA97D0313D6CEF76E99FE1FF5B8AF /* Pods_ReactNativeApp_tvOSTests.framework */,
+				712670FABB994D8F7B74DDC37E032AFB /* Pods_ReactNativeAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2776960FB1D199404FE46552B48CFCD1 /* Pods-ReactNativeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0668EE1705579444CC2CDCBD3C335576 /* Pods-ReactNativeAppTests.modulemap */,
+				A659C85726142F076F1DE1EC4740211B /* Pods-ReactNativeAppTests-acknowledgements.markdown */,
+				B31650D0FF3C7BBED68FAE6A6F7BFA48 /* Pods-ReactNativeAppTests-acknowledgements.plist */,
+				B24989517701F78DC802116294B7DF38 /* Pods-ReactNativeAppTests-dummy.m */,
+				D4A11F217D37E4E1164A37D77635D7FF /* Pods-ReactNativeAppTests-Info.plist */,
+				E3CA23B863933D950352989E54049FFC /* Pods-ReactNativeAppTests-umbrella.h */,
+				E78A88B39FF229FF96CB57EE0F624FBD /* Pods-ReactNativeAppTests.debug.xcconfig */,
+				435372FFE96B9EFDA5E6EFA1B372F74E /* Pods-ReactNativeAppTests.release.xcconfig */,
+			);
+			name = "Pods-ReactNativeAppTests";
+			path = "Target Support Files/Pods-ReactNativeAppTests";
+			sourceTree = "<group>";
+		};
+		2D46366A65DDC0794CEBC0FE82BB8A8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57447041E60F2B2A34B159A833C2254C /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A8BFC62FB97EEB9AC82A4EC1682B318 /* Pods-ReactNativeApp-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E985DE6F66914B43AC9AEEAFE2B8940D /* Pods-ReactNativeApp-tvOS.modulemap */,
+				98ECB64714B29523E87887F4F765FEA8 /* Pods-ReactNativeApp-tvOS-acknowledgements.markdown */,
+				AE043815E5BD31F573B517C3CDC76305 /* Pods-ReactNativeApp-tvOS-acknowledgements.plist */,
+				F6EDF0E1D9790D6A06B86EB4A15C5B52 /* Pods-ReactNativeApp-tvOS-dummy.m */,
+				84ED35A14E4C063105B7BB02C2F468D1 /* Pods-ReactNativeApp-tvOS-Info.plist */,
+				6BCF07034717A51DE89225EAE298D632 /* Pods-ReactNativeApp-tvOS-umbrella.h */,
+				C7FD18E2A51FC2FE79DB35F0C277E4B0 /* Pods-ReactNativeApp-tvOS.debug.xcconfig */,
+				F98BCA3DC4D06E094EED29FD31184A85 /* Pods-ReactNativeApp-tvOS.release.xcconfig */,
+			);
+			name = "Pods-ReactNativeApp-tvOS";
+			path = "Target Support Files/Pods-ReactNativeApp-tvOS";
+			sourceTree = "<group>";
+		};
+		5D0D3521F21C1BB5DCE82B8CAEF9692B /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				6EDB0407D90518B826ED8A5E5A0B7C09 /* Analytics */,
+				94182EE150168D8F091F83224D20C0A4 /* Core */,
+				9B7151692B2AC286B115FA8800335CA1 /* Crashes */,
+				D7E2631FD0126E1F8A2EF339F5A433A9 /* Support Files */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		6EDB0407D90518B826ED8A5E5A0B7C09 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				2D46366A65DDC0794CEBC0FE82BB8A8A /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		71BF10D9671F60B91D333968CED34958 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		878BAA6AD16232E9672AA445795237A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				029302686FEFE02AE936632016CAA780 /* Pods-ReactNativeApp */,
+				4A8BFC62FB97EEB9AC82A4EC1682B318 /* Pods-ReactNativeApp-tvOS */,
+				1262F4EB7C8FAE52651E692FE150C552 /* Pods-ReactNativeApp-tvOSTests */,
+				2776960FB1D199404FE46552B48CFCD1 /* Pods-ReactNativeAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A88CC71D6E55F0202A23277A509BCA0 /* iOS */,
+				71BF10D9671F60B91D333968CED34958 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94182EE150168D8F091F83224D20C0A4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				23977631E0E947775B0FF421D89FC310 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9A88CC71D6E55F0202A23277A509BCA0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B7151692B2AC286B115FA8800335CA1 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				BB344F108DF82A6C8E5EC1D35D0DE13C /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		BB344F108DF82A6C8E5EC1D35D0DE13C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE7345C6137AF49A54827B4AEA2E17 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2F79BBE68CAC64203149AF75B3502BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenterReactNativeShared";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */,
+				EE373CD21EE89767163B4F9D8A04C324 /* Pods */,
+				2662D0F8032F938A30D048B20741CEC6 /* Products */,
+				878BAA6AD16232E9672AA445795237A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E2631FD0126E1F8A2EF339F5A433A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenter";
+			sourceTree = "<group>";
+		};
+		ED7F0E7602AAB87E8282D7EE77A128F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				101086D48961A1F5D174F74008C809D8 /* AppCenterReactNativeShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE373CD21EE89767163B4F9D8A04C324 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D0D3521F21C1BB5DCE82B8CAEF9692B /* AppCenter */,
+				1E40D94BB364328FBE96A84A9A48CC14 /* AppCenterReactNativeShared */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14870858D8879C1496D4D4DB545042C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1A154C90793CFF56E3546338A53020 /* Pods-ReactNativeAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BD3F622AC73AF070F7EC2D2540A57E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39ED842C6F36E2BD5506BC173D295FCB /* Pods-ReactNativeApp-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		552486C0FDA08CABE5403308F9BE7308 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00E2AD413A34591FA18D9592C1269FB /* Pods-ReactNativeApp-tvOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0703AD8C96EC3C8C6ABCD99D3E30DA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B2133F148DF05C1E4ADD33F6CF0640 /* Pods-ReactNativeApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02979CB509BA262674AB136EF2A25733 /* Pods-ReactNativeApp-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF71607BC83CBEC939587635E33A471 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeApp-tvOSTests" */;
+			buildPhases = (
+				552486C0FDA08CABE5403308F9BE7308 /* Headers */,
+				477F5D19ABD82513CE1B83D5662C0B86 /* Sources */,
+				B1AB50BC7CACBB6BC34EF8766D8AE899 /* Frameworks */,
+				6C2D12C6E994ACC76BD66FD5EFE5A0B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7D17F0A621FBE89E23A49E3FD09C41 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReactNativeApp-tvOSTests";
+			productName = "Pods-ReactNativeApp-tvOSTests";
+			productReference = 213FA97D0313D6CEF76E99FE1FF5B8AF /* Pods_ReactNativeApp_tvOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		081230B9F77672DC359CF6D5EE53636F /* Pods-ReactNativeApp-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCA94E26EC9FFDFECC7EEA19F996523 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeApp-tvOS" */;
+			buildPhases = (
+				39BD3F622AC73AF070F7EC2D2540A57E /* Headers */,
+				0F479F3F9600759B7711E40CEF39F434 /* Sources */,
+				B2CEBE6F0B7C4A89FD8CCEE1069BA373 /* Frameworks */,
+				4CCC44019AD3FCBEDC9D420B22A7E2ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ReactNativeApp-tvOS";
+			productName = "Pods-ReactNativeApp-tvOS";
+			productReference = A4BDA455628F24BF53589DA2EA0C9D33 /* Pods_ReactNativeApp_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67394185F33447D1DA9D6FA614C4E66D /* Pods-ReactNativeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C975529DA3F32201E5C3B0955CA194E1 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeAppTests" */;
+			buildPhases = (
+				14870858D8879C1496D4D4DB545042C1 /* Headers */,
+				DD319F74851A5DECFA3CA33DA9C747AD /* Sources */,
+				E65E1C63B7FECE251736A32894D4916E /* Frameworks */,
+				A2280DDEA5D9F1523E24F4312C9F3004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9340C5DCBBFE24F472373AC95E8C8848 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReactNativeAppTests";
+			productName = "Pods-ReactNativeAppTests";
+			productReference = 712670FABB994D8F7B74DDC37E032AFB /* Pods_ReactNativeAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7279438790F19097CEB411DFA1951DB6 /* Pods-ReactNativeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C8822EE42971B6177AD2B213A93709 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeApp" */;
+			buildPhases = (
+				D0703AD8C96EC3C8C6ABCD99D3E30DA2 /* Headers */,
+				B03815DBEDE01DD8754CE0D32798EB53 /* Sources */,
+				B22249A9DD5EAE9E20345832C37A2BFF /* Frameworks */,
+				52F90DD96176FBE7ADB1FC5C849FD12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35D9A8D592C0A89AEC9AC00EAD30E5BF /* PBXTargetDependency */,
+				C0069D6AB35ECD2EB2194BB452F358C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReactNativeApp";
+			productName = "Pods-ReactNativeApp";
+			productReference = 309F0BC04F2964C58200F77715937B42 /* Pods_ReactNativeApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2662D0F8032F938A30D048B20741CEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */,
+				2CD32458A161AF8E4BA58B4310701AB3 /* AppCenterReactNativeShared */,
+				7279438790F19097CEB411DFA1951DB6 /* Pods-ReactNativeApp */,
+				081230B9F77672DC359CF6D5EE53636F /* Pods-ReactNativeApp-tvOS */,
+				02979CB509BA262674AB136EF2A25733 /* Pods-ReactNativeApp-tvOSTests */,
+				67394185F33447D1DA9D6FA614C4E66D /* Pods-ReactNativeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCC44019AD3FCBEDC9D420B22A7E2ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F90DD96176FBE7ADB1FC5C849FD12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2D12C6E994ACC76BD66FD5EFE5A0B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2280DDEA5D9F1523E24F4312C9F3004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F479F3F9600759B7711E40CEF39F434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D801952BDC5B3647234F52BEE8B791 /* Pods-ReactNativeApp-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		477F5D19ABD82513CE1B83D5662C0B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D51CC9D4B0D9ACE4753C8A7D3A07CD /* Pods-ReactNativeApp-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03815DBEDE01DD8754CE0D32798EB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABAF04455439DE19BEBADA20B7DE9BF /* Pods-ReactNativeApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD319F74851A5DECFA3CA33DA9C747AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CE5D685C2DF4EA923A785196D7EF53 /* Pods-ReactNativeAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0051E4214884EF5346A2A55966EC832B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = D96B09CB6F7CDF72F3099DD83AD5AB87 /* PBXContainerItemProxy */;
+		};
+		35D9A8D592C0A89AEC9AC00EAD30E5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = 5E7315F8CE405A32A36B96F6B85AF47B /* PBXContainerItemProxy */;
+		};
+		9340C5DCBBFE24F472373AC95E8C8848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ReactNativeApp";
+			target = 7279438790F19097CEB411DFA1951DB6 /* Pods-ReactNativeApp */;
+			targetProxy = 204166D9EA4585933F9E939E906CA928 /* PBXContainerItemProxy */;
+		};
+		C0069D6AB35ECD2EB2194BB452F358C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenterReactNativeShared;
+			target = 2CD32458A161AF8E4BA58B4310701AB3 /* AppCenterReactNativeShared */;
+			targetProxy = 1BAA9E4D4F9B58C58FC61A9FD5A0C36B /* PBXContainerItemProxy */;
+		};
+		DD7D17F0A621FBE89E23A49E3FD09C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ReactNativeApp-tvOS";
+			target = 081230B9F77672DC359CF6D5EE53636F /* Pods-ReactNativeApp-tvOS */;
+			targetProxy = EB6629AB37C716E07AFB00705E34CB35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A2096CA3A471120DD91E8A56F6281FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78A88B39FF229FF96CB57EE0F624FBD /* Pods-ReactNativeAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactNativeAppTests/Pods-ReactNativeAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactNativeAppTests/Pods-ReactNativeAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F263DA9E05288066F8B3BE52F3B0528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7FD18E2A51FC2FE79DB35F0C277E4B0 /* Pods-ReactNativeApp-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactNativeApp-tvOS/Pods-ReactNativeApp-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactNativeApp-tvOS/Pods-ReactNativeApp-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44DA8D30A185CF39FF38CACD51676CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		556972560A900AACA05F77BB8045708E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98BCA3DC4D06E094EED29FD31184A85 /* Pods-ReactNativeApp-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactNativeApp-tvOS/Pods-ReactNativeApp-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactNativeApp-tvOS/Pods-ReactNativeApp-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68F07807C8D62F2D76C744A41F3D874D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		6F4D25CB9F599D775DBC451590213731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8000A84E615F355193C3FDD7C95D6D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6EFB9AE3212708E4D3615E25DF2161D /* Pods-ReactNativeApp-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactNativeApp-tvOSTests/Pods-ReactNativeApp-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactNativeApp-tvOSTests/Pods-ReactNativeApp-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A791558A6CAD52F6A29BE7CDFC70C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4939254D9B12C5F8E84CFE6C51D11AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C56DD09D82B2868185FD9506AB022C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D46EC3293D24A3DBB97AA146096CD4 /* Pods-ReactNativeApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactNativeApp/Pods-ReactNativeApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactNativeApp/Pods-ReactNativeApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA9C3F931C44AAA376A814406F5F25EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E98ADAC9738FDF5C6806990B983401DE /* Pods-ReactNativeApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactNativeApp/Pods-ReactNativeApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactNativeApp/Pods-ReactNativeApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		ED8D7E9636FE909A6497B4CFAA1148A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F02B4B83ED4C34CF3C2B546D42EDEC9 /* Pods-ReactNativeApp-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactNativeApp-tvOSTests/Pods-ReactNativeApp-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactNativeApp-tvOSTests/Pods-ReactNativeApp-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAD46994031C743A822A2FD1BF5EAF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 435372FFE96B9EFDA5E6EFA1B372F74E /* Pods-ReactNativeAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReactNativeAppTests/Pods-ReactNativeAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReactNativeAppTests/Pods-ReactNativeAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */,
+				68F07807C8D62F2D76C744A41F3D874D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AADDABC0FF92BF51AC88E6BD57DB25 /* Build configuration list for PBXAggregateTarget "AppCenterReactNativeShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4939254D9B12C5F8E84CFE6C51D11AE /* Debug */,
+				44DA8D30A185CF39FF38CACD51676CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF71607BC83CBEC939587635E33A471 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeApp-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8000A84E615F355193C3FDD7C95D6D79 /* Debug */,
+				ED8D7E9636FE909A6497B4CFAA1148A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C975529DA3F32201E5C3B0955CA194E1 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2096CA3A471120DD91E8A56F6281FF /* Debug */,
+				FAD46994031C743A822A2FD1BF5EAF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4D25CB9F599D775DBC451590213731 /* Debug */,
+				8A791558A6CAD52F6A29BE7CDFC70C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCA94E26EC9FFDFECC7EEA19F996523 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeApp-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F263DA9E05288066F8B3BE52F3B0528 /* Debug */,
+				556972560A900AACA05F77BB8045708E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C8822EE42971B6177AD2B213A93709 /* Build configuration list for PBXNativeTarget "Pods-ReactNativeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56DD09D82B2868185FD9506AB022C5D /* Debug */,
+				CA9C3F931C44AAA376A814406F5F25EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

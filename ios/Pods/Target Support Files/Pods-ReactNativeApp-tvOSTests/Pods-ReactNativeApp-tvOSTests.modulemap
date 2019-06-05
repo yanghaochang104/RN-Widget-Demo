@@ -1,0 +1,6 @@
+framework module Pods_ReactNativeApp_tvOSTests {
+  umbrella header "Pods-ReactNativeApp-tvOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
