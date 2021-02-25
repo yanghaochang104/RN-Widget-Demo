@@ -2,4 +2,7 @@
     <string name="app_name">ReactNativeApp</string>
     <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
     <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string name="appwidget_text">企業大師</string>
+    <string name="add_widget">Add widget</string>
+    <string name="logout_text">you are currently logged out!</string>
 </resources>
